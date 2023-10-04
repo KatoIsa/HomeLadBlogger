@@ -93,7 +93,7 @@ const App = {
     RedirectToContentPage: () => {
         // get all card elements.
         const cards = document.querySelectorAll('.card');
-        const link = ['https://lad-blogger.vercel.app/','#'];
+        const link = ['https://phtoshop-lad-blogger.vercel.app/','#'];
 
         // lets add a redirect button to each element
         for (i = 0; i < cards.length; i++) {
