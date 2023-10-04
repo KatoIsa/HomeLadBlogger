@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+        <title>Home Lad-Blogger</title>
+        <link rel="icon" type="image/x-icon" href="./icons/Icon@0.5x.png">
+    </head>
+    <body>
+        <div class="scrollHelper">
+            <main>
+                <header>
+                    <a href="./index.html">
+                        <h1><span style="color: #5eb9ff;">LAD</span>BLOGGER</h1>
+                    </a>
+                    <p><a href="#"></a></p>
+                </header>
+                <section id="library-introduction">
+                   <div class="hero">
+                    <div class="logo">
+                        <img  src="./assets/LogoLarge.png" alt="logo" />
+                    </div>
+                    <h2>Welcome to Lad Blogger: Where Ideas Ignite and Innovations Illuminate!</h2><br>
+                   </div>
+
+                   <p style="margin-bottom: 20px;">
+                    Dive into a tech haven where curiosity meets creation. Lad Blogger explores cutting-edge tech, inspiring innovation in every click. Join us on this journey to the digital future! 🚀
+                </p>
+                </section>
+
+                <section id="hot-topics">
+                    <!-- the List and grid view toggle element -->
+                    <div class="ViewType">
+                        <span class="ListViewType active"></span>
+                        <span class="GridviewType"></span>
+                        <div class="type"><tt>List</tt></div>
+                    </div>
+
+                    <h2>New Posts</h2> 
+                    <!-- Topic number -->
+                    <span class="topicNumber">
+                        <!-- its rendered in with javascript -->
+                    </span>
+
+                    <!-- cards sections  -->
+                    <div class="cardsSection ListLayout">
+                         <!-- cards are rendered on the page with javascript -->
+                    </div>
+                </section>
+
+                <section>
+                    <style>
+                        .article {
+                            padding: 10px;
+                            margin: 10px;
+                            display: inline-block;
+                         /* Adjust the width as per your layout */
+                            vertical-align: top;
+                            box-sizing: border-box;
+                        }
+                        .featured-articles img{
+                            max-width:100%;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            border-radius: 20px;
+                        }
+                        .article h4 {
+                            margin-top: 0;
+                        }
+                    </style>
+                    <div class="featured-articles">
+                        <h3>Featured Articles</h3>
+                        
+                        <div class="article">
+                            <h4>1. Quantum Computing: Unlocking the Power of Parallel Universes</h4>
+                            <img src="https://algorithmiq.fi/wp-content/uploads/2022/12/Algorithmiq-quantum-computer-spirograph-1024x683.jpg" alt="quantom computing">
+                            <p>Dive into the mind-boggling world of quantum computing. Explore how qubits, superposition, and entanglement are reshaping our understanding of computing, promising unprecedented processing power and groundbreaking applications.</p>
+                        </div>
+                    
+                        <div class="article">
+                            <h4>2. The Rise of Artificial Intelligence: From Sci-Fi to Everyday Reality</h4>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Artificial_Intelligence_%26_AI_%26_Machine_Learning_-_30212411048.jpg/960px-Artificial_Intelligence_%26_AI_%26_Machine_Learning_-_30212411048.jpg" alt="AI">
+                            <p>Discover the fascinating journey of artificial intelligence, from its roots in science fiction to its current real-world applications. Explore AI's impact on various sectors, from healthcare to transportation, and ponder the ethical considerations of AI-driven decision-making.</p>
+                        </div>
+                    
+                        <div class="article">
+                            <!--  -->
+                            <h4>3. Augmented Reality: Blurring the Lines Between Real and Virtual</h4>
+                            <img src="https://cdn.elearningindustry.com/wp-content/uploads/2023/07/Shutterstock_2256192757.jpg" alt="AR">
+                            <p>Immerse yourself in the realm of augmented reality (AR). Learn how AR technology is transforming industries like gaming, education, and healthcare. Explore its potential in creating interactive experiences and revolutionizing the way we perceive and interact with the world.</p>
+                        </div>
+                    
+                        <div class="article">
+                            <h4>5. Blockchain Technology: Beyond Cryptocurrencies to Decentralized Revolution</h4>
+                            <img src="https://www.forbes.com/advisor/wp-content/uploads/2021/06/blockchain.jpeg.jpg " alt="block chain">
+                            <p>Unravel the mysteries of blockchain technology and its applications beyond cryptocurrencies like Bitcoin. Explore how blockchain is reshaping industries such as finance, supply chain management, and healthcare by providing transparent, secure, and decentralized solutions. Discover the challenges and promises of the blockchain revolution.</p>
+                        </div>
+                    
+                    
+                        <!-- Add more .article divs for additional featured articles -->
+                    
+                    </div>
+                </section>
+
+                <footer>
+                    <p>&copy; 2023 <a href="https://katoisa256.netlify.app">the
+                            lad-bloger</a> Corp. All rights reserved. <br><br>
+                        made with ❤️ by <tt>Kato Isa</tt>
+                        <div class="contacts">
+                            <a href="https://github.com/KatoIsa"><div class="github"></div></a>
+                            <a href="https://wa.me/256705207718"><div class="whatsApp"></div></a>
+                            <a href="https://www.linkedin.com/in/kato-isa-932972206"></a>
+                        </div>
+                        <br>
+                        powered by <span ><a href="https://github.com/KatoIsa/Simplified_JS">simplify.js</a></span>
+                    </p>
+                </footer>
+            </main>
+        </div>
+
+        <!-- Simplify js -->
+        <script src="./lib/SimplifyJS/lib/Simplified.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
