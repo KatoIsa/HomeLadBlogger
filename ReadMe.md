@@ -1,3 +1,3 @@
 ## Under development
-# The LAD-BLOGGER main home page
+# The LAD-BLOGGER main home page.
 
