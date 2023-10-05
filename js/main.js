@@ -34,7 +34,7 @@ const App = {
         for(i=0; i<randomImageElements.length; i++){
             randomImageElements[i].style.backgroundImage = `url(${randomImages[i]})`;
         }
-        
+
     },
     removeRandomImages: () => {
         const randomImageElements = document.querySelectorAll(".card");
@@ -91,7 +91,7 @@ const App = {
     RedirectToContentPage: () => {
         // get all card elements.
         const cards = document.querySelectorAll('.card');
-        const link = ['https://photoshop-lad-blogger.vercel.app/','#'];
+        const link = ['https://photoshop-lad-blogger.vercel.app/','https://illustrator-lad-blogger.vercel.app/'];
 
         // lets add a redirect button to each element
         for (i = 0; i < cards.length; i++) {
