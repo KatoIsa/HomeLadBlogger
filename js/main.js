@@ -27,16 +27,14 @@ const App = {
     RandomImageGenrator: () => {
         const randomImages = [
             "./assets/Random-3.jpg",
-            "./assets/Random-4.jpg",
+            "./assets/IllustratorIcon.png",
         ];
 
         const randomImageElements = document.querySelectorAll(".GridLayOut .card");
-
-        randomImageElements.forEach(function (element) {
-            const randomIndex = Math.floor(Math.random() * randomImages.length);
-            const randomImageUrl = randomImages[randomIndex];
-            element.style.backgroundImage = `url(${randomImageUrl})`;
-        });
+        for(i=0; i<randomImageElements.length; i++){
+            randomImageElements[i].style.backgroundImage = `url(${randomImages[i]})`;
+        }
+        
     },
     removeRandomImages: () => {
         const randomImageElements = document.querySelectorAll(".card");
