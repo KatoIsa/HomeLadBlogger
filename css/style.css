@@ -391,7 +391,73 @@ header h1 {
     margin-bottom: 10px;
     animation: titleFadeIn 1s ease-in-out forwards;
 }
-
+.social{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+}
+@media (max-width:381px){
+    .social{
+        font-size: 14px;
+    }
+}
+@media (max-width:355px){
+    .social{
+        font-size: 13px;
+        gap: 2px!important;
+    }
+    .social .sec{
+        padding: 3px!important;
+        gap: 3px!important;
+    }
+    .social .sec div{
+        width: 20px!important;
+        height: 20px!important;
+    }
+}
+@media (max-width:301px){
+    .social{
+        font-size: 13px;
+        display: grid;
+    }
+}
+.social .sec{
+    background: #11111183;
+    border: 2px solid #363535;
+    /* width: 130px; */
+    height: 30px;
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    align-content: center;
+}
+.social .secOne .socialIcon{
+    background-image: url(../icons/github.png);
+    background-size: cover;
+}
+.social .secTwo .socialIcon{
+    background-image: url(../icons/whatsapp.png);
+    background-size: cover;
+    opacity: 0.7;
+}
+.social .sec:hover{
+    cursor: pointer;
+    background: #0f0f0f;
+}
+.social .sec div{
+    background: #555252;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.social .sec p{
+    color: #9e9e9e;
+    margin-top: -3px;
+}
 @media (max-width:259px){
     header h1{
         font-size: 20px!important;
