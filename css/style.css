@@ -444,6 +444,11 @@ header h1 {
     background-size: cover;
     opacity: 0.7;
 }
+.social .secThree .socialIcon{
+    background-image: url(https://d1jj76g3lut4fe.cloudfront.net/processed/thumb/H9NtH33fWEr0n7Y4Ru.png?Expires=1697297892&Signature=eD029ZFW2IAN9XXteEIpOUCV6pfFVOpa-frruyib94eYxminQM3TccwGX7fanxMpyVnW-k03QtE2dEhlSTU5u9CEaK-6uKvsLCy7mXw1QU3uy-1ahEl9eV45dDFv2EMQDlq~pr~RqhCv7Ur0f42aT-32Mp-VIL5ucX7tMMPxi5Bh8iU3x8vr5XBibaDtXgFQHUxt8vlOVphCzItY079icuRhIqoQXEsWEk4IFSm8G6YZSgxhYK3DtcMyqphPyEFNtO6XGEWwO1-NKLqGJsNhU-UKoQhHW~K6ndFajJWKzLOSpfsXHIDmWEOLBhBYU-WB9v2WoBs955l~AFH2hjFu9g__&Key-Pair-Id=K2YEDJLVZ3XRI);
+    background-size: cover;
+    opacity: 0.7;
+}
 .social .sec:hover{
     cursor: pointer;
     background: #0f0f0f;
